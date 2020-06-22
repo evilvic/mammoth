@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import { fonts } from './variables'
 
 export default createGlobalStyle`
 
@@ -8,6 +9,11 @@ export default createGlobalStyle`
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
+  }
+
+  button {
+    font-size: 1.6rem;
+    font-weight: ${fonts.medium};
   }
 
 `

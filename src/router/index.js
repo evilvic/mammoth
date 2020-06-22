@@ -1,11 +1,11 @@
 import React from 'react'
 import { Switch, Route} from 'react-router-dom'
 
-const DummyComponent = () => <h1>Hey!</h1>
+import Home from '../pages/Home'
 
 const Router = () => (
   <Switch>
-    <Route exact path='/' component={DummyComponent}/>
+    <Route exact path='/' component={Home}/>
   </Switch>
 )
 
