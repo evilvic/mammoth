@@ -5,7 +5,9 @@ export const MainContext = createContext()
 
 class MainProvider extends Component {
 
-  state = {}
+  state = {
+    // test comment
+  }
 
   render() {
 
